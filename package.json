@@ -1,0 +1,27 @@
+{
+  "name": "pkmnapi",
+  "version": "1.0.0",
+  "description": "API Pokémon. Catch them all !",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoninJoulie/NodeJs.git"
+  },
+  "keywords": [
+    "Pokemon"
+  ],
+  "author": "Robin Bigeard - Antonin Joulie - Killian Cambert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoninJoulie/NodeJs/issues"
+  },
+  "homepage": "https://github.com/AntoninJoulie/NodeJs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
