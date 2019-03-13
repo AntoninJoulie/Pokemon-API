@@ -1,7 +1,7 @@
 const mongoose = require('../db');
 
 const modelRegion = mongoose.model('table_region', {
-    nom: {
+    name: {
         type: String,
     },
     nativeTrainer: {

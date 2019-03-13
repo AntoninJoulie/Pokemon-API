@@ -1,7 +1,7 @@
 const mongoose = require('../db');
 
 const modelPokemon = mongoose.model('table_pokemon', {
-    id: {
+    number: {
         type: Number
     },
     name: {

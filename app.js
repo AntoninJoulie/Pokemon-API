@@ -13,10 +13,68 @@ app.get('/', (req, res) => {
 
 app.use(bodyParser.json())
 
-app.get(`/trainer`, (req, res) => {})
-app.get('/trainer/:id', (req, res) => {})
-app.post('/trainer', (req, res) => {})
-app.delete('/trainer/:id', (req, res) => {})
+app.get(`/trainer`, (req, res) => {
+  modelTrainer.find({}).then(trainer => {
+    console.log(trainer);
+    res.json(trainer)
+  }).catch(err => {
+    console.log(err);
+    res.status(500).send(err);
+  });
+});
+
+
+app.get('/trainer/:id', (req, res) => {
+  const {id} = req.params;
+  console.log(req.params.id);
+  modelTrainer.findById(req.params.id).then((err, trainer) => {
+    console.log(trainer);
+    res.json(trainer)
+  }).catch((err) => {
+    res.status(500).send(err);
+  });
+});
+
+app.post('/trainer', (req, res) => {
+  new modelTrainer({
+    number: req.body.number,
+    name: req.body.name,
+    age: req.body.age,
+    gender: req.body.gender,
+    job: req.body.job,
+    pokemon: req.body.pokemon,
+    region: req.body.region
+  }).save().then(user => {
+    res.send(trainer);
+    console.log(trainer);
+  }).catch(err => {
+    res.status(500).send(err);
+  });
+});
+
+app.delete('/trainer/:id', (req, res) => {
+  const {id} = req.params;
+  modelTrainer.findByIdAndRemove(id).then(trainer => {
+    if(!trainer){
+      res.status(404).send();
+    }
+    res.send(trainer);
+  }).catch(err => {
+    res.status(500).send(err);
+  });
+});
+
+app.put('/trainer/:id', (req, res) => {
+  const {id} = req.params;
+  modelTrainer.findByIdAndUpdate(id, {$set: req.body}).then(trainer => {
+    if(!trainer){
+      res.status(404).send();
+    }
+    res.send(trainer);
+  }).catch(err => {
+    res.status(500).send(err);
+  });
+});
 
 app.get(`/pokemon`, (req, res) => {})
 app.get('/pokemon/:id', (req, res) => {})

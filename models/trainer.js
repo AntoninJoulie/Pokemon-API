@@ -1,7 +1,7 @@
 const mongoose = require('../db');
 
 const modelTrainer = mongoose.model('table_trainer', {
-    id: {
+    number: {
         type: Number
     },
     name: {
@@ -17,7 +17,7 @@ const modelTrainer = mongoose.model('table_trainer', {
         type: String
     },
     pokemon: {
-
+        type: Array
     },
     region: {
         type: Number
