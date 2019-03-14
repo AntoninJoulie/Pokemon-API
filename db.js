@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://admin:<password>@cluster0-5hax9.mongodb.net/test?retryWrites=true', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/pkmnapi', { useNewUrlParser: true }).then(() => {
+    console.log('Successful connection to mongodb');
+}).catch(() => {
+    console.log('Failed to connect mongodb');
+})
 
 module.exports = mongoose;
