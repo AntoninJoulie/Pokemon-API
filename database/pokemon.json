@@ -4,11 +4,11 @@
 	"type": "Electrik",
 	"trainer": {
 		"name": "Sacha",
-		"url": "localhost:4000/trainer/1"
+		"url": "https://pkmnapi.herokuapp.com/trainer/1"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -21,11 +21,11 @@
 	],
 	"trainer": {
 		"name": "Sacha",
-		"url": "localhost:4000/trainer/1"
+		"url": "https://pkmnapi.herokuapp.com/trainer/1"
 	},
 	"region": {
 		"name": "Alola",
-		"url": "localhost:4000/region/7"
+		"url": "https://pkmnapi.herokuapp.com/region/7"
 	}
 }
 
@@ -35,11 +35,11 @@
 	"type": "Roche",
 	"trainer": {
 		"name": "Sacha",
-		"url": "localhost:4000/trainer/1"
+		"url": "https://pkmnapi.herokuapp.com/trainer/1"
 	},
 	"region": {
 		"name": "Alola",
-		"url": "localhost:4000/region/7"
+		"url": "https://pkmnapi.herokuapp.com/region/7"
 	}
 }
 
@@ -49,11 +49,11 @@
 	"type": "Feu",
 	"trainer": {
 		"name": "Sacha",
-		"url": "localhost:4000/trainer/1"
+		"url": "https://pkmnapi.herokuapp.com/trainer/1"
 	},
 	"region": {
 		"name": "Alola",
-		"url": "localhost:4000/region/7"
+		"url": "https://pkmnapi.herokuapp.com/region/7"
 	}
 }
 
@@ -63,11 +63,11 @@
 	"type": "Acier",
 	"trainer": {
 		"name": "Sacha",
-		"url": "localhost:4000/trainer/1"
+		"url": "https://pkmnapi.herokuapp.com/trainer/1"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -80,11 +80,11 @@
 	],
 	"trainer": {
 		"name": "Pierre",
-		"url": "localhost:4000/trainer/2"
+		"url": "https://pkmnapi.herokuapp.com/trainer/2"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -97,11 +97,11 @@
 	],
 	"trainer": {
 		"name": "Pierre",
-		"url": "localhost:4000/trainer/2"
+		"url": "https://pkmnapi.herokuapp.com/trainer/2"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -114,11 +114,11 @@
 	],
 	"trainer": {
 		"name": "Pierre",
-		"url": "localhost:4000/trainer/2"
+		"url": "https://pkmnapi.herokuapp.com/trainer/2"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -128,11 +128,11 @@
 	"type": "Roche",
 	"trainer": {
 		"name": "Pierre",
-		"url": "localhost:4000/trainer/2"
+		"url": "https://pkmnapi.herokuapp.com/trainer/2"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -142,16 +142,16 @@
 	"type": "Fee",
 	"trainer": [{
 			"name": "Pierre",
-			"url": "localhost:4000/trainer/2"
+			"url": "https://pkmnapi.herokuapp.com/trainer/2"
 		},
 		{
 			"name": "Joelle",
-			"url": "localhost:4000/trainer/4"
+			"url": "https://pkmnapi.herokuapp.com/trainer/4"
 		}
 	],
 	"region": {
 		"name": "Alola",
-		"url": "localhost:4000/region/7"
+		"url": "https://pkmnapi.herokuapp.com/region/7"
 	}
 }
 
@@ -164,11 +164,11 @@
 	],
 	"trainer": {
 		"name": "Ondine",
-		"url": "localhost:4000/trainer/3"
+		"url": "https://pkmnapi.herokuapp.com/trainer/3"
 	},
 	"region": {
 		"name": "Hoenn",
-		"url": "localhost:4000/region/3"
+		"url": "https://pkmnapi.herokuapp.com/region/3"
 	}
 }
 
@@ -178,11 +178,11 @@
 	"type": "Eau",
 	"trainer": {
 		"name": "Ondine",
-		"url": "localhost:4000/trainer/3"
+		"url": "https://pkmnapi.herokuapp.com/trainer/3"
 	},
 	"region": {
 		"name": "Hoenn",
-		"url": "localhost:4000/region/3"
+		"url": "https://pkmnapi.herokuapp.com/region/3"
 	}
 }
 
@@ -195,11 +195,11 @@
 	],
 	"trainer": {
 		"name": "Ondine",
-		"url": "localhost:4000/trainer/3"
+		"url": "https://pkmnapi.herokuapp.com/trainer/3"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -211,11 +211,11 @@
 	],
 	"trainer": {
 		"name": "Ondine",
-		"url": "localhost:4000/trainer/3"
+		"url": "https://pkmnapi.herokuapp.com/trainer/3"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -225,11 +225,11 @@
 	"type": "Eau",
 	"trainer": {
 		"name": "Ondine",
-		"url": "localhost:4000/trainer/3"
+		"url": "https://pkmnapi.herokuapp.com/trainer/3"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -239,11 +239,11 @@
 	"type": "Eau",
 	"trainer": {
 		"name": "Ondine",
-		"url": "localhost:4000/trainer/3"
+		"url": "https://pkmnapi.herokuapp.com/trainer/3"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -256,11 +256,11 @@
 	],
 	"trainer": {
 		"name": "Joelle",
-		"url": "localhost:4000/trainer/4"
+		"url": "https://pkmnapi.herokuapp.com/trainer/4"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -270,11 +270,11 @@
 	"type": "Normal",
 	"trainer": {
 		"name": "Joelle",
-		"url": "localhost:4000/trainer/4"
+		"url": "https://pkmnapi.herokuapp.com/trainer/4"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -284,11 +284,11 @@
 	"type": "Normal",
 	"trainer": {
 		"name": "Joelle",
-		"url": "localhost:4000/trainer/4"
+		"url": "https://pkmnapi.herokuapp.com/trainer/4"
 	},
 	"region": {
 		"name": "Unys",
-		"url": "localhost:4000/region/5"
+		"url": "https://pkmnapi.herokuapp.com/region/5"
 	}
 }
 
@@ -298,11 +298,11 @@
 	"type": "Feu",
 	"trainer": {
 		"name": "Jenny",
-		"url": "localhost:4000/trainer/5"
+		"url": "https://pkmnapi.herokuapp.com/trainer/5"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -312,11 +312,11 @@
 	"type": "Fee",
 	"trainer": {
 		"name": "Jenny",
-		"url": "localhost:4000/trainer/5"
+		"url": "https://pkmnapi.herokuapp.com/trainer/5"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -326,11 +326,11 @@
 	"type": "Electrik",
 	"trainer": {
 		"name": "Jenny",
-		"url": "localhost:4000/trainer/5"
+		"url": "https://pkmnapi.herokuapp.com/trainer/5"
 	},
 	"region": {
 		"name": "Hoenn",
-		"url": "localhost:4000/region/3"
+		"url": "https://pkmnapi.herokuapp.com/region/3"
 	}
 }
 
@@ -340,11 +340,11 @@
 	"type": "Normal",
 	"trainer": {
 		"name": "Jenny",
-		"url": "localhost:4000/trainer/5"
+		"url": "https://pkmnapi.herokuapp.com/trainer/5"
 	},
 	"region": {
 		"name": "Unys",
-		"url": "localhost:4000/region/5"
+		"url": "https://pkmnapi.herokuapp.com/region/5"
 	}
 }
 
@@ -354,11 +354,11 @@
 	"type": "Psy",
 	"trainer": {
 		"name": "Jessie",
-		"url": "localhost:4000/trainer/6"
+		"url": "https://pkmnapi.herokuapp.com/trainer/6"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -371,11 +371,11 @@
 	],
 	"trainer": {
 		"name": "Jessie",
-		"url": "localhost:4000/trainer/6"
+		"url": "https://pkmnapi.herokuapp.com/trainer/6"
 	},
 	"region": {
 		"name": "Alola",
-		"url": "localhost:4000/region/7"
+		"url": "https://pkmnapi.herokuapp.com/region/7"
 	}
 }
 
@@ -388,11 +388,11 @@
 	],
 	"trainer": {
 		"name": "James",
-		"url": "localhost:4000/trainer/7"
+		"url": "https://pkmnapi.herokuapp.com/trainer/7"
 	},
 	"region": {
 		"name": "Alola",
-		"url": "localhost:4000/region/7"
+		"url": "https://pkmnapi.herokuapp.com/region/7"
 	}
 }
 
@@ -405,11 +405,11 @@
 	],
 	"trainer": {
 		"name": "Flora",
-		"url": "localhost:4000/trainer/8"
+		"url": "https://pkmnapi.herokuapp.com/trainer/8"
 	},
 	"region": {
 		"name": "Hoenn",
-		"url": "localhost:4000/region/3"
+		"url": "https://pkmnapi.herokuapp.com/region/3"
 	}
 }
 
@@ -422,11 +422,11 @@
 	],
 	"trainer": {
 		"name": "Flora",
-		"url": "localhost:4000/trainer/8"
+		"url": "https://pkmnapi.herokuapp.com/trainer/8"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -436,11 +436,11 @@
 	"type": "Normal",
 	"trainer": {
 		"name": "Flora",
-		"url": "localhost:4000/trainer/8"
+		"url": "https://pkmnapi.herokuapp.com/trainer/8"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -450,11 +450,11 @@
 	"type": "Eau",
 	"trainer": {
 		"name": "Flora",
-		"url": "localhost:4000/trainer/8"
+		"url": "https://pkmnapi.herokuapp.com/trainer/8"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -464,11 +464,11 @@
 	"type": "Glace",
 	"trainer": {
 		"name": "Flora",
-		"url": "localhost:4000/trainer/8"
+		"url": "https://pkmnapi.herokuapp.com/trainer/8"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -478,11 +478,11 @@
 	"type": "Eau",
 	"trainer": {
 		"name": "Aurore",
-		"url": "localhost:4000/trainer/9"
+		"url": "https://pkmnapi.herokuapp.com/trainer/9"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -492,11 +492,11 @@
 	"type": "Normal",
 	"trainer": {
 		"name": "Aurore",
-		"url": "localhost:4000/trainer/9"
+		"url": "https://pkmnapi.herokuapp.com/trainer/9"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -506,11 +506,11 @@
 	"type": "Electrik",
 	"trainer": {
 		"name": "Aurore",
-		"url": "localhost:4000/trainer/9"
+		"url": "https://pkmnapi.herokuapp.com/trainer/9"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -523,11 +523,11 @@
 	],
 	"trainer": {
 		"name": "Aurore",
-		"url": "localhost:4000/trainer/9"
+		"url": "https://pkmnapi.herokuapp.com/trainer/9"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -537,11 +537,11 @@
 	"type": "Feu",
 	"trainer": {
 		"name": "Aurore",
-		"url": "localhost:4000/trainer/9"
+		"url": "https://pkmnapi.herokuapp.com/trainer/9"
 	},
 	"region": {
 		"name": "Johto",
-		"url": "localhost:4000/region/2"
+		"url": "https://pkmnapi.herokuapp.com/region/2"
 	}
 }
 
@@ -554,11 +554,11 @@
 	],
 	"trainer": {
 		"name": "Aurore",
-		"url": "localhost:4000/trainer/9"
+		"url": "https://pkmnapi.herokuapp.com/trainer/9"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -571,11 +571,11 @@
 	],
 	"trainer": {
 		"name": "Iris",
-		"url": "localhost:4000/trainer/10"
+		"url": "https://pkmnapi.herokuapp.com/trainer/10"
 	},
 	"region": {
 		"name": "Unys",
-		"url": "localhost:4000/region/5"
+		"url": "https://pkmnapi.herokuapp.com/region/5"
 	}
 }
 
@@ -585,11 +585,11 @@
 	"type": "Dragon",
 	"trainer": {
 		"name": "Iris",
-		"url": "localhost:4000/trainer/10"
+		"url": "https://pkmnapi.herokuapp.com/trainer/10"
 	},
 	"region": {
 		"name": "Unys",
-		"url": "localhost:4000/region/5"
+		"url": "https://pkmnapi.herokuapp.com/region/5"
 	}
 }
 
@@ -602,11 +602,11 @@
 	],
 	"trainer": {
 		"name": "Iris",
-		"url": "localhost:4000/trainer/10"
+		"url": "https://pkmnapi.herokuapp.com/trainer/10"
 	},
 	"region": {
 		"name": "Unys",
-		"url": "localhost:4000/region/5"
+		"url": "https://pkmnapi.herokuapp.com/region/5"
 	}
 }
 
@@ -619,11 +619,11 @@
 	],
 	"trainer": {
 		"name": "Iris",
-		"url": "localhost:4000/trainer/10"
+		"url": "https://pkmnapi.herokuapp.com/trainer/10"
 	},
 	"region": {
 		"name": "Kanto",
-		"url": "localhost:4000/region/1"
+		"url": "https://pkmnapi.herokuapp.com/region/1"
 	}
 }
 
@@ -636,11 +636,11 @@
 	],
 	"trainer": {
 		"name": "Iris",
-		"url": "localhost:4000/trainer/10"
+		"url": "https://pkmnapi.herokuapp.com/trainer/10"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -650,11 +650,11 @@
 	"type": "Normal",
 	"trainer": {
 		"name": "Lem",
-		"url": "localhost:4000/trainer/11"
+		"url": "https://pkmnapi.herokuapp.com/trainer/11"
 	},
 	"region": {
 		"name": "Kalos",
-		"url": "localhost:4000/region/6"
+		"url": "https://pkmnapi.herokuapp.com/region/6"
 	}
 }
 
@@ -664,11 +664,11 @@
 	"type": "Plante",
 	"trainer": {
 		"name": "Lem",
-		"url": "localhost:4000/trainer/11"
+		"url": "https://pkmnapi.herokuapp.com/trainer/11"
 	},
 	"region": {
 		"name": "Kalos",
-		"url": "localhost:4000/region/6"
+		"url": "https://pkmnapi.herokuapp.com/region/6"
 	}
 }
 
@@ -678,11 +678,11 @@
 	"type": "Electrik",
 	"trainer": {
 		"name": "Lem",
-		"url": "localhost:4000/trainer/11"
+		"url": "https://pkmnapi.herokuapp.com/trainer/11"
 	},
 	"region": {
 		"name": "Sinnoh",
-		"url": "localhost:4000/region/4"
+		"url": "https://pkmnapi.herokuapp.com/region/4"
 	}
 }
 
@@ -692,11 +692,11 @@
 	"type": "Feu",
 	"trainer": {
 		"name": "Serena",
-		"url": "localhost:4000/trainer/12"
+		"url": "https://pkmnapi.herokuapp.com/trainer/12"
 	},
 	"region": {
 		"name": "Kalos",
-		"url": "localhost:4000/region/6"
+		"url": "https://pkmnapi.herokuapp.com/region/6"
 	}
 }
 
@@ -706,11 +706,11 @@
 	"type": "Combat",
 	"trainer": {
 		"name": "Serena",
-		"url": "localhost:4000/trainer/12"
+		"url": "https://pkmnapi.herokuapp.com/trainer/12"
 	},
 	"region": {
 		"name": "Kalos",
-		"url": "localhost:4000/region/6"
+		"url": "https://pkmnapi.herokuapp.com/region/6"
 	}
 }
 
@@ -720,10 +720,10 @@
 	"type": "Fee",
 	"trainer": {
 		"name": "Serena",
-		"url": "localhost:4000/trainer/12"
+		"url": "https://pkmnapi.herokuapp.com/trainer/12"
 	},
 	"region": {
 		"name": "Kalos",
-		"url": "localhost:4000/region/6"
+		"url": "https://pkmnapi.herokuapp.com/region/6"
 	}
 }

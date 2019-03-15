@@ -6,10 +6,7 @@ const http = require("http").Server(app);
 const bodyParser = require("body-parser");
 const { modelTrainer, modelPokemon, modelRegion } = require("./models/models");
 
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/index.html");
-});
-
+app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
 // Methods for Trainer tables ---------------------------------------------------
