@@ -20,7 +20,7 @@ const modelTrainer = mongoose.model('table_trainer', {
         type: Array
     },
     region: {
-        type: String
+        type: Array
     }
 });
 
