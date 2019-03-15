@@ -36,7 +36,7 @@ app.get(`/trainer`, (req, res) => {
  */
 
 app.get("/trainer/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelTrainer
     .findOne({ number: number })
@@ -78,7 +78,7 @@ app.post("/trainer", (req, res) => {
  */
 
 app.delete("/trainer/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const { number } = Number(req.params.number);
   console.log(number);
   modelTrainer
     .findOneAndRemove(number)
