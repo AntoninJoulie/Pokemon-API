@@ -136,7 +136,7 @@ app.get(`/pokemon`, (req, res) => {
 app.get("/pokemon/:number", (req, res) => {
   const number = Number(req.params.number);
   console.log(number);
-  modelTrainer
+  modelPokemon
     .findOne({ number: number })
     .then(pokemon => {
       console.log(pokemon);
