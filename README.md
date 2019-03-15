@@ -12,7 +12,7 @@
 
 Vous pouvez allez voir notre API sur internet: [https://pkmnapi.herokuapp.com](https://pkmnapi.herokuapp.com)
 
-Toutes les données Pokémon que vous avez toujours souhaitées:
+Toutes les données Pokémon que vous avez toujours souhaitées :
 - Dresseur
     - GET (`https://pkmnapi.herokuapp.com/trainer`)
     - GET ID (`https://pkmnapi.herokuapp.com/trainer/1`)
@@ -55,7 +55,7 @@ Instancier le projet NPM
     $ npm i yargs -s
 
 
-Si le projet est déja crée comme le notre vous pouvez faire ça.
+Si le projet est déja crée comme le notre vous pouvez utiliser cette commande pour récupérer les dépendances :
 
     $ npm install
 
