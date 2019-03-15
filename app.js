@@ -66,7 +66,7 @@ app.post("/trainer", (req, res) => {
     .save()
     .then(trainer => {
       res.send(trainer);
-      console.log(trainer);
+      console.log('Post Trainer:\n', trainer);
     })
     .catch(err => {
       res.status(500).send(err);
@@ -78,7 +78,7 @@ app.post("/trainer", (req, res) => {
  */
 
 app.delete("/trainer/:number", (req, res) => {
-  const { number } = Number(req.params.number);
+  const number = Number(req.params.number);
   console.log(number);
   modelTrainer
     .findOneAndRemove(number)
@@ -98,7 +98,7 @@ app.delete("/trainer/:number", (req, res) => {
  */
 
 app.put("/trainer/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelTrainer
     .findOneAndUpdate(number, { $set: req.body })
@@ -137,7 +137,7 @@ app.get(`/pokemon`, (req, res) => {
  */
 
 app.get("/pokemon/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelTrainer
     .findOne({ number: number })
@@ -165,7 +165,7 @@ app.post("/pokemon", (req, res) => {
   .save()
     .then(pokemon => {
       res.send(pokemon);
-      console.log(pokemon);
+      console.log('Post Pokemon:\n', pokemon);
     })
     .catch(err => {
       res.status(500).send(err);
@@ -177,7 +177,7 @@ app.post("/pokemon", (req, res) => {
  */
 
 app.delete("/pokemon/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelPokemon
     .findOneAndRemove(number)
@@ -197,7 +197,7 @@ app.delete("/pokemon/:number", (req, res) => {
  */
 
 app.put("/pokemon/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelPokemon
     .findOneAndUpdate(number, { $set: req.body })
@@ -236,7 +236,7 @@ app.get(`/region`, (req, res) => {
  */
 
 app.get("/region/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelRegion
     .findOne({ number: number })
@@ -263,7 +263,7 @@ app.post("/region", (req, res) => {
   .save()
     .then(region => {
       res.send(region);
-      console.log(region);
+      console.log('Post Region:\n', region);
     })
     .catch(err => {
       res.status(500).send(err);
@@ -275,7 +275,7 @@ app.post("/region", (req, res) => {
  */
 
 app.delete("/region/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelRegion
     .findOneAndRemove(number)
@@ -295,7 +295,7 @@ app.delete("/region/:number", (req, res) => {
  */
 
 app.put("/region/:number", (req, res) => {
-  const { number } = Number(req.params.numbers);
+  const number = Number(req.params.number);
   console.log(number);
   modelRegion
     .findOneAndUpdate(number, { $set: req.body })

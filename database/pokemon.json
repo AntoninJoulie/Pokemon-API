@@ -1,0 +1,729 @@
+{
+	"number": 1,
+	"name": "Pikachu",
+	"type": "Electrik",
+	"trainer": {
+		"name": "Sacha",
+		"url": "localhost:4000/trainer/1"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 2,
+	"name": "Brindibou",
+	"type": [
+		"Plante",
+		"Vol"
+	],
+	"trainer": {
+		"name": "Sacha",
+		"url": "localhost:4000/trainer/1"
+	},
+	"region": {
+		"name": "Alola",
+		"url": "localhost:4000/region/7"
+	}
+}
+
+{
+	"number": 3,
+	"name": "Lougaroc",
+	"type": "Roche",
+	"trainer": {
+		"name": "Sacha",
+		"url": "localhost:4000/trainer/1"
+	},
+	"region": {
+		"name": "Alola",
+		"url": "localhost:4000/region/7"
+	}
+}
+
+{
+	"number": 4,
+	"name": "Matoufeu",
+	"type": "Feu",
+	"trainer": {
+		"name": "Sacha",
+		"url": "localhost:4000/trainer/1"
+	},
+	"region": {
+		"name": "Alola",
+		"url": "localhost:4000/region/7"
+	}
+}
+
+{
+	"number": 5,
+	"name": "Meltan",
+	"type": "Acier",
+	"trainer": {
+		"name": "Sacha",
+		"url": "localhost:4000/trainer/1"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 6,
+	"name": "Steelix",
+	"type": [
+		"Acier",
+		"Sol"
+	],
+	"trainer": {
+		"name": "Pierre",
+		"url": "localhost:4000/trainer/2"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 7,
+	"name": "Racaillou",
+	"type": [
+		"Roche",
+		"Sol"
+	],
+	"trainer": {
+		"name": "Pierre",
+		"url": "localhost:4000/trainer/2"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 8,
+	"name": "Nostenfer",
+	"type": [
+		"Poison",
+		"Vol"
+	],
+	"trainer": {
+		"name": "Pierre",
+		"url": "localhost:4000/trainer/2"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 9,
+	"name": "Simularbre",
+	"type": "Roche",
+	"trainer": {
+		"name": "Pierre",
+		"url": "localhost:4000/trainer/2"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 10,
+	"name": "Guerilande",
+	"type": "Fee",
+	"trainer": [{
+			"name": "Pierre",
+			"url": "localhost:4000/trainer/2"
+		},
+		{
+			"name": "Joelle",
+			"url": "localhost:4000/trainer/4"
+		}
+	],
+	"region": {
+		"name": "Alola",
+		"url": "localhost:4000/region/7"
+	}
+}
+
+{
+	"number": 11,
+	"name": "Azurill",
+	"type": [
+		"Normal",
+		"Fee"
+	],
+	"trainer": {
+		"name": "Ondine",
+		"url": "localhost:4000/trainer/3"
+	},
+	"region": {
+		"name": "Hoenn",
+		"url": "localhost:4000/region/3"
+	}
+}
+
+{
+	"number": 12,
+	"name": "Lovdisc",
+	"type": "Eau",
+	"trainer": {
+		"name": "Ondine",
+		"url": "localhost:4000/trainer/3"
+	},
+	"region": {
+		"name": "Hoenn",
+		"url": "localhost:4000/region/3"
+	}
+}
+
+{
+	"number": 13,
+	"name": "Leviator",
+	"type": [
+		"Eau",
+		"Vol"
+	],
+	"trainer": {
+		"name": "Ondine",
+		"url": "localhost:4000/trainer/3"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 14,
+	"name": "Corayon",
+	"type": ["Eau",
+		"Roche"
+	],
+	"trainer": {
+		"name": "Ondine",
+		"url": "localhost:4000/trainer/3"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 15,
+	"name": "Tarpaud",
+	"type": "Eau",
+	"trainer": {
+		"name": "Ondine",
+		"url": "localhost:4000/trainer/3"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 16,
+	"name": "Psykokwak",
+	"type": "Eau",
+	"trainer": {
+		"name": "Ondine",
+		"url": "localhost:4000/trainer/3"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 17,
+	"name": "Grodoudou",
+	"type": [
+		"Normal",
+		"Fee"
+	],
+	"trainer": {
+		"name": "Joelle",
+		"url": "localhost:4000/trainer/4"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 18,
+	"name": "Leuphorie",
+	"type": "Normal",
+	"trainer": {
+		"name": "Joelle",
+		"url": "localhost:4000/trainer/4"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 19,
+	"name": "Nanmeouie",
+	"type": "Normal",
+	"trainer": {
+		"name": "Joelle",
+		"url": "localhost:4000/trainer/4"
+	},
+	"region": {
+		"name": "Unys",
+		"url": "localhost:4000/region/5"
+	}
+}
+
+{
+	"number": 20,
+	"name": "Arcanin",
+	"type": "Feu",
+	"trainer": {
+		"name": "Jenny",
+		"url": "localhost:4000/trainer/5"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 21,
+	"name": "Granbull",
+	"type": "Fee",
+	"trainer": {
+		"name": "Jenny",
+		"url": "localhost:4000/trainer/5"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 22,
+	"name": "Elecsprint",
+	"type": "Electrik",
+	"trainer": {
+		"name": "Jenny",
+		"url": "localhost:4000/trainer/5"
+	},
+	"region": {
+		"name": "Hoenn",
+		"url": "localhost:4000/region/3"
+	}
+}
+
+{
+	"number": 23,
+	"name": "Ponchien",
+	"type": "Normal",
+	"trainer": {
+		"name": "Jenny",
+		"url": "localhost:4000/trainer/5"
+	},
+	"region": {
+		"name": "Unys",
+		"url": "localhost:4000/region/5"
+	}
+}
+
+{
+	"number": 24,
+	"name": "Qulbutoke",
+	"type": "Psy",
+	"trainer": {
+		"name": "Jessie",
+		"url": "localhost:4000/trainer/6"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 25,
+	"name": "Mimiqui",
+	"type": [
+		"Spectre",
+		"Fee"
+	],
+	"trainer": {
+		"name": "Jessie",
+		"url": "localhost:4000/trainer/6"
+	},
+	"region": {
+		"name": "Alola",
+		"url": "localhost:4000/region/7"
+	}
+}
+
+{
+	"number": 26,
+	"name": "Vorasterie",
+	"type": [
+		"Poison",
+		"Eau"
+	],
+	"trainer": {
+		"name": "James",
+		"url": "localhost:4000/trainer/7"
+	},
+	"region": {
+		"name": "Alola",
+		"url": "localhost:4000/region/7"
+	}
+}
+
+{
+	"number": 27,
+	"name": "Brasegali",
+	"type": [
+		"Feu",
+		"Combat"
+	],
+	"trainer": {
+		"name": "Flora",
+		"url": "localhost:4000/trainer/8"
+	},
+	"region": {
+		"name": "Hoenn",
+		"url": "localhost:4000/region/3"
+	}
+}
+
+{
+	"number": 28,
+	"name": "Florizarre",
+	"type": [
+		"Plante",
+		"Poison"
+	],
+	"trainer": {
+		"name": "Flora",
+		"url": "localhost:4000/trainer/8"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 29,
+	"name": "Goinfrex",
+	"type": "Normal",
+	"trainer": {
+		"name": "Flora",
+		"url": "localhost:4000/trainer/8"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 30,
+	"name": "Carabaffe",
+	"type": "Eau",
+	"trainer": {
+		"name": "Flora",
+		"url": "localhost:4000/trainer/8"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 31,
+	"name": "Givrali",
+	"type": "Glace",
+	"trainer": {
+		"name": "Flora",
+		"url": "localhost:4000/trainer/8"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 32,
+	"name": "Tiplouf",
+	"type": "Eau",
+	"trainer": {
+		"name": "Aurore",
+		"url": "localhost:4000/trainer/9"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 33,
+	"name": "Laporeille",
+	"type": "Normal",
+	"trainer": {
+		"name": "Aurore",
+		"url": "localhost:4000/trainer/9"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 34,
+	"name": "Pachirisu",
+	"type": "Electrik",
+	"trainer": {
+		"name": "Aurore",
+		"url": "localhost:4000/trainer/9"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 35,
+	"name": "Mammochon",
+	"type": [
+		"Glace",
+		"Sol"
+	],
+	"trainer": {
+		"name": "Aurore",
+		"url": "localhost:4000/trainer/9"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 36,
+	"name": "Feurisson",
+	"type": "Feu",
+	"trainer": {
+		"name": "Aurore",
+		"url": "localhost:4000/trainer/9"
+	},
+	"region": {
+		"name": "Johto",
+		"url": "localhost:4000/region/2"
+	}
+}
+
+{
+	"number": 37,
+	"name": "Togekiss",
+	"type": [
+		"Fee",
+		"Vol"
+	],
+	"trainer": {
+		"name": "Aurore",
+		"url": "localhost:4000/trainer/9"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 38,
+	"name": "Minotaupe",
+	"type": [
+		"Sol",
+		"Acier"
+	],
+	"trainer": {
+		"name": "Iris",
+		"url": "localhost:4000/trainer/10"
+	},
+	"region": {
+		"name": "Unys",
+		"url": "localhost:4000/region/5"
+	}
+}
+
+{
+	"number": 39,
+	"name": "Coupenotte",
+	"type": "Dragon",
+	"trainer": {
+		"name": "Iris",
+		"url": "localhost:4000/trainer/10"
+	},
+	"region": {
+		"name": "Unys",
+		"url": "localhost:4000/region/5"
+	}
+}
+
+{
+	"number": 40,
+	"name": "Emolga",
+	"type": [
+		"Electrik",
+		"Vol"
+	],
+	"trainer": {
+		"name": "Iris",
+		"url": "localhost:4000/trainer/10"
+	},
+	"region": {
+		"name": "Unys",
+		"url": "localhost:4000/region/5"
+	}
+}
+
+{
+	"number": 41,
+	"name": "Dracolosse",
+	"type": [
+		"Dragon",
+		"Vol"
+	],
+	"trainer": {
+		"name": "Iris",
+		"url": "localhost:4000/trainer/10"
+	},
+	"region": {
+		"name": "Kanto",
+		"url": "localhost:4000/region/1"
+	}
+}
+
+{
+	"number": 42,
+	"name": "Griknot",
+	"type": [
+		"Dragon",
+		"Sol"
+	],
+	"trainer": {
+		"name": "Iris",
+		"url": "localhost:4000/trainer/10"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 43,
+	"name": "Sapereau",
+	"type": "Normal",
+	"trainer": {
+		"name": "Lem",
+		"url": "localhost:4000/trainer/11"
+	},
+	"region": {
+		"name": "Kalos",
+		"url": "localhost:4000/region/6"
+	}
+}
+
+{
+	"number": 44,
+	"name": "Marisson",
+	"type": "Plante",
+	"trainer": {
+		"name": "Lem",
+		"url": "localhost:4000/trainer/11"
+	},
+	"region": {
+		"name": "Kalos",
+		"url": "localhost:4000/region/6"
+	}
+}
+
+{
+	"number": 45,
+	"name": "Luxray",
+	"type": "Electrik",
+	"trainer": {
+		"name": "Lem",
+		"url": "localhost:4000/trainer/11"
+	},
+	"region": {
+		"name": "Sinnoh",
+		"url": "localhost:4000/region/4"
+	}
+}
+
+{
+	"number": 46,
+	"name": "Roussil",
+	"type": "Feu",
+	"trainer": {
+		"name": "Serena",
+		"url": "localhost:4000/trainer/12"
+	},
+	"region": {
+		"name": "Kalos",
+		"url": "localhost:4000/region/6"
+	}
+}
+
+{
+	"number": 47,
+	"name": "Pandespiegle",
+	"type": "Combat",
+	"trainer": {
+		"name": "Serena",
+		"url": "localhost:4000/trainer/12"
+	},
+	"region": {
+		"name": "Kalos",
+		"url": "localhost:4000/region/6"
+	}
+}
+
+{
+	"number": 48,
+	"name": "Nymphali",
+	"type": "Fee",
+	"trainer": {
+		"name": "Serena",
+		"url": "localhost:4000/trainer/12"
+	},
+	"region": {
+		"name": "Kalos",
+		"url": "localhost:4000/region/6"
+	}
+}

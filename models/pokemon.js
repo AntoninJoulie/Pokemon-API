@@ -8,13 +8,13 @@ const modelPokemon = mongoose.model('table_pokemon', {
         type: String
     },
     type: {
-        type: String
+        type: Array
     },
     trainer: {
-        type: String
+        type: Array
     },
     region: {
-        type: Number
+        type: Array
     }
 });
 
