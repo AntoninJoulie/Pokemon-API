@@ -1,0 +1,285 @@
+{
+    "number": 1,
+    "name": "Kanto",
+    "nativeTrainer": [{
+            "name": "Sacha",
+            "url": "localhost:4000/trainer/1"
+        },
+        {
+            "name": "Pierre",
+            "url": "localhost:4000/trainer/2"
+        },
+        {
+            "name": "Ondine",
+            "url": "localhost:4000/trainer/3"
+        },
+        {
+            "name": "Joelle",
+            "url": "localhost:4000/trainer/4"
+        },
+        {
+            "name": "Jenny",
+            "url": "localhost:4000/trainer/5"
+        },
+        {
+            "name": "Jessie",
+            "url": "localhost:4000/trainer/6"
+        },
+        {
+            "name": "James",
+            "url": "localhost:4000/trainer/7"
+        }
+    ],
+    "nativePokemon": [{
+            "name": "Pikachu",
+            "url": "localhost:4000/pokemon/1"
+        },
+        {
+            "name": "Leviator",
+            "url": "localhost:4000/pokemon/13"
+        },
+        {
+            "name": "Psykokwak",
+            "url": "localhost:4000/pokemon/16"
+        },
+        {
+            "name": "Grodoudou",
+            "url": "localhost:4000/pokemon/17"
+        },
+        {
+            "name": "Arcanin",
+            "url": "localhost:4000/pokemon/20"
+        },
+        {
+            "name": "Granbull",
+            "url": "localhost:4000/pokemon/21"
+        },
+        {
+            "name": "Qulbutoke",
+            "url": "localhost:4000/pokemon/24"
+        },
+        {
+            "name": "Florizarre",
+            "url": "localhost:4000/pokemon/28"
+        },
+        {
+            "name": "Carabaffe",
+            "url": "localhost:4000/pokemon/30"
+        },
+        {
+            "name": "Dracolosse",
+            "url": "localhost:4000/pokemon/41"
+        },
+        {
+            "name": "Meltan",
+            "url": "localhost:4000/pokemon/5"
+        }
+    ]
+}
+
+{
+    "number": 2,
+    "name": "Johto",
+    "nativeTrainer": [],
+    "nativePokemon": [
+        {
+            "name": "Steelix",
+            "url": "localhost:4000/pokemon/6"
+        },
+        {
+            "name": "Nostenfer",
+            "url": "localhost:4000/pokemon/8"
+        },
+        {
+            "name": "Simularbre",
+            "url": "localhost:4000/pokemon/9"
+        },
+        {
+            "name": "Corayon",
+            "url": "localhost:4000/pokemon/14"
+        },
+        {
+            "name": "Tarpaud",
+            "url": "localhost:4000/pokemon/15"
+        },
+        {
+            "name": "Leuphorie",
+            "url": "localhost:4000/pokemon/18"
+        },
+        {
+            "name": "Feurisson",
+            "url": "localhost:4000/pokemon/36"
+        }
+    ]
+}
+
+{
+    "number": 3,
+    "name": "Hoenn",
+    "nativeTrainer": {
+        "name": "Flora",
+        "url": "localhost:4000/trainer/8"
+    },
+    "nativePokemon": [
+        {
+            "name": "Azurill",
+            "url": "localhost:4000/pokemon/11"
+        },
+        {
+            "name": "Lovdisc",
+            "url": "localhost:4000/pokemon/12"
+        },
+        {
+            "name": "Elecsprint",
+            "url": "localhost:4000/pokemon/22"
+        },
+        {
+            "name": "Braségali",
+            "url": "localhost:4000/pokemon/27"
+        }
+    ]
+}
+
+{
+    "number": 4,
+    "name": "Sinnoh",
+    "nativeTrainer": {
+            "name": "Aurore",
+            "url": "localhost:4000/trainer/9"
+    },
+    "nativePokemon": [
+        {
+            "name": "Goinfrex",
+            "url": "localhost:4000/pokemon/29"
+        },
+        {
+            "name": "Givrali",
+            "url": "localhost:4000/pokemon/31"
+        },
+        {
+            "name": "Tiplouf",
+            "url": "localhost:4000/pokemon/32"
+        },
+        {
+            "name": "Laporeille",
+            "url": "localhost:4000/pokemon/33"
+        },
+        {
+            "name": "Pachirisu",
+            "url": "localhost:4000/pokemon/34"
+        },
+        {
+            "name": "Mammochon",
+            "url": "localhost:4000/pokemon/35"
+        },
+        {
+            "name": "Togekiss",
+            "url": "localhost:4000/pokemon/37"
+        },
+        {
+            "name": "Griknot",
+            "url": "localhost:4000/pokemon/42"
+        },
+        {
+            "name": "Luxray",
+            "url": "localhost:4000/pokemon/45"
+        }
+    ]
+}
+
+{
+    "number": 5,
+    "name": "Unys",
+    "nativeTrainer": {
+        "name": "Iris",
+        "url": "localhost:4000/trainer/10"
+    },
+    "nativePokemon": [
+        {
+            "name": "Nanmeouie",
+            "url": "localhost:4000/pokemon/19"
+        },
+        {
+            "name": "Ponchien",
+            "url": "localhost:4000/pokemon/23"
+        },
+        {
+            "name": "Minotaupe",
+            "url": "localhost:4000/pokemon/38"
+        },
+        {
+            "name": "Coupenotte",
+            "url": "localhost:4000/pokemon/39"
+        },
+        {
+            "name": "Emolga",
+            "url": "localhost:4000/pokemon/40"
+        }
+    ]
+}
+
+{
+    "number": 6,
+    "name": "Kalos",
+    "nativeTrainer": [{
+            "name": "Lem",
+            "url": "localhost:4000/trainer/11"
+        },
+        {
+            "name": "Serena",
+            "url": "localhost:4000/trainer/12"
+        }
+    ],
+    "nativePokemon": [{
+            "name": "Sapereau",
+            "url": "localhost:4000/pokemon/43"
+        },
+        {
+            "name": "Marisson",
+            "url": "localhost:4000/pokemon/44"
+        },
+        {
+            "name": "Roussil",
+            "url": "localhost:4000/pokemon/46"
+        },
+        {
+            "name": "Pandespiegle",
+            "url": "localhost:4000/pokemon/47"
+        },
+        {
+            "name": "Nymphali",
+            "url": "localhost:4000/pokemon/48"
+        }
+    ]
+}
+
+{
+    "number": 7,
+    "name": "Alola",
+    "nativeTrainer": [],
+    "nativePokemon": [{
+            "name": "Brindibou",
+            "url": "localhost:4000/pokemon/2"
+        },
+        {
+            "name": "Lougaroc",
+            "url": "localhost:4000/pokemon/3"
+        },
+        {
+            "name": "Matoufeu",
+            "url": "localhost:4000/pokemon/4"
+        },
+        {
+            "name": "Guerilande",
+            "url": "localhost:4000/pokemon/10"
+        },
+        {
+            "name": "Mimiqui",
+            "url": "localhost:4000/pokemon/25"
+        },
+        {
+            "name": "Vorasterie",
+            "url": "localhost:4000/pokemon/26"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+  }
+
+  pre {
+    background: #f7f7f7;
+    overflow: auto;
+    border-radius: 6px;
+    padding: 30px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .logo {
+    width: 100px;
+    margin: auto;
+  }
+
+  .get {
+    display: flex;
+  }
+
+  .get-spa {
+    flex-grow: 0;
+    border: 2px solid linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background: linear-gradient(#484e55, #3a3f44 60%, #313539);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px 0 0 6px;
+  }
+
+  .get-inp {
+    flex-grow: 1;
+    font-size: 16px;
+    min-width: 50px;
+    border: none;
+    margin: 0;
+    background: grey;
+    color: #fff;
+    padding: 0 12px;
+  }
+
+  .get-btn {
+    flex-grow: 0;
+    border: 2px solid gray;
+    border: none;
+    background: linear-gradient(#484e55, #3a3f44 60%, #313539);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 0 6px 6px 0;
+  }

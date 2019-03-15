@@ -1,0 +1,357 @@
+{
+    "number": 1,
+    "name": "Sacha",
+    "age": 17,
+    "gender": "Homme",
+    "job": "Dresseur",
+    "pokemon": [
+        {
+            "name": "Pikachu",
+            "url": "localhost:4000/pokemon/1"
+        },
+        {
+            "name": "Brindibou",
+            "url": "localhost:4000/pokemon/2"
+        },
+        {
+            "name": "Lougaroc",
+            "url": "localhost:4000/pokemon/3"
+        },
+        {
+            "name": "Matoufeu",
+            "url": "localhost:4000/pokemon/4"
+        },
+        {
+            "name": "Meltan",
+            "url": "localhost:4000/pokemon/5"
+        }
+    ],
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 2,
+    "name": "Pierre",
+    "age": 22,
+    "gender": "Homme",
+    "job": "Champion d'arene",
+    "pokemon": [
+        {
+            "name": "Steelix",
+            "url": "localhost:4000/pokemon/6"
+        },
+        {
+            "name": "Racaillou",
+            "url": "localhost:4000/pokemon/7"
+        },
+        {
+            "name": "Nostenfer",
+            "url": "localhost:4000/pokemon/8"
+        },
+        {
+            "name": "Simularbre",
+            "url": "localhost:4000/pokemon/9"
+        },
+        {
+            "name": "Guerilande",
+            "url": "localhost:4000/pokemon/10"
+        }
+    ],
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 3,
+    "name": "Ondine",
+    "age": 19,
+    "gender": "Femme",
+    "job": "Championne d'arene",
+    "pokemon": [
+        {
+            "name": "Azurill",
+            "url": "localhost:4000/pokemon/11"
+        },
+        {
+            "name": "Lovdisc",
+            "url": "localhost:4000/pokemon/12"
+        },
+        {
+            "name": "Leviator",
+            "url": "localhost:4000/pokemon/13"
+        },
+        {
+            "name": "Corayon",
+            "url": "localhost:4000/pokemon/14"
+        },
+        {
+            "name": "Tarpaud",
+            "url": "localhost:4000/pokemon/15"
+        },
+        {
+            "name": "Psykokwak",
+            "url": "localhost:4000/pokemon/16"
+        }
+    ],
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 4,
+    "name": "Joelle",
+    "age": 26,
+    "gender": "Femme",
+    "job": "Infirmiere",
+    "pokemon": [
+        {
+            "name": "Grodoudou",
+            "url": "localhost:4000/pokemon/17"
+        },
+        {
+            "name": "Leuphorie",
+            "url": "localhost:4000/pokemon/18"
+        },
+        {
+            "name": "Nanmeouie",
+            "url": "localhost:4000/pokemon/19"
+        },
+        {
+            "name": "Guerilande",
+            "url": "localhost:4000/pokemon/10"
+        }
+    ],
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 5,
+    "name": "Jenny",
+    "age": 26,
+    "gender": "Femme",
+    "job": "Agent",
+    "pokemon": [
+        {
+            "name": "Arcanin",
+            "url": "localhost:4000/pokemon/20"
+        },
+        {
+            "name": "Granbull",
+            "url": "localhost:4000/pokemon/21"
+        },
+        {
+            "name": "Elecsprint",
+            "url": "localhost:4000/pokemon/22"
+        },
+        {
+            "name": "Ponchien",
+            "url": "localhost:4000/pokemon/23"
+        }
+    ],
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 6,
+    "name": "Jessie",
+    "age": 26,
+    "gender": "Femme",
+    "job": "Membre de la Team Rocket",
+    "pokemon": [
+        {
+            "name": "Qulbutoke",
+            "url": "localhost:4000/pokemon/24"
+        },
+        {
+            "name": "Mimiqui",
+            "url": "localhost:4000/pokemon/25"
+        }
+    ],
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 7,
+    "name": "James",
+    "age": 26,
+    "gender": "Homme",
+    "job": "Membre de la Team Rocket",
+    "pokemon": {
+            "name": "Vorasterie",
+            "url": "localhost:4000/pokemon/26"
+        },
+    "region": {
+        "name": "Kanto",
+        "url": "localhost:4000/region/1"
+    }
+}
+
+{
+    "number": 8,
+    "name": "Flora",
+    "age": 14,
+    "gender": "Femme",
+    "job": "Coordinatrice",
+    "pokemon": [
+        {
+            "name": "Brasegali",
+            "url": "localhost:4000/pokemon/27"
+        },
+        {
+            "name": "Florizarre",
+            "url": "localhost:4000/pokemon/28"
+        },
+        {
+            "name": "Goinfrex",
+            "url": "localhost:4000/pokemon/29"
+        },
+        {
+            "name": "Carabaffe",
+            "url": "localhost:4000/pokemon/30"
+        },
+        {
+            "name": "Givrali",
+            "url": "localhost:4000/pokemon/31"
+        }
+    ],
+    "region": {
+        "name": "Hoenn",
+        "url": "localhost:4000/region/3"
+    }
+}
+
+{
+    "number": 9,
+    "name": "Aurore",
+    "age": 15,
+    "gender": "Femme",
+    "job": "Coordinatrice",
+    "pokemon": [{
+            "name": "Tiplouf",
+            "url": "localhost:4000/pokemon/32"
+        },
+        {
+            "name": "Laporeille",
+            "url": "localhost:4000/pokemon/33"
+        },
+        {
+            "name": "Pachirisu",
+            "url": "localhost:4000/pokemon/34"
+        },
+        {
+            "name": "Mammochon",
+            "url": "localhost:4000/pokemon/35"
+        },
+        {
+            "name": "Feurisson",
+            "url": "localhost:4000/pokemon/36"
+        },
+        {
+            "name": "Togekiss",
+            "url": "localhost:4000/pokemon/37"
+        }
+    ],
+    "region": {
+        "name": "Sinnoh",
+        "url": "localhost:4000/region/4"
+    }
+}
+
+{
+    "number": 10,
+    "name": "Iris",
+    "age": 15,
+    "gender": "Femme",
+    "job": "Dresseur",
+    "pokemon": [{
+            "name": "Minotaupe",
+            "url": "localhost:4000/pokemon/38"
+        },
+        {
+            "name": "Coupenotte",
+            "url": "localhost:4000/pokemon/39"
+        },
+        {
+            "name": "Emolga",
+            "url": "localhost:4000/pokemon/40"
+        },
+        {
+            "name": "Dracolosse",
+            "url": "localhost:4000/pokemon/41"
+        },
+        {
+            "name": "Griknot",
+            "url": "localhost:4000/pokemon/42"
+        }
+    ],
+    "region": {
+        "name": "Unys",
+        "url": "localhost:4000/region/5"
+    }
+}
+
+{
+    "number": 11,
+    "name": "Lem",
+    "age": 16,
+    "gender": "Homme",
+    "job": "Champion d'arene",
+    "pokemon": [{
+            "name": "Sapereau",
+            "url": "localhost:4000/pokemon/43"
+        },
+        {
+            "name": "Marisson",
+            "url": "localhost:4000/pokemon/44"
+        },
+        {
+            "name": "Luxray",
+            "url": "localhost:4000/pokemon/45"
+        }
+    ],
+    "region": {
+        "name": "Kalos",
+        "url": "localhost:4000/region/6"
+    }
+}
+
+{
+    "number": 12,
+    "name": "Serena",
+    "age": 14,
+    "gender": "Femme",
+    "job": "Artiste",
+    "pokemon": [{
+            "name": "Roussil",
+            "url": "localhost:4000/pokemon/46"
+        },
+        {
+            "name": "Pandespiegle",
+            "url": "localhost:4000/pokemon/47"
+        },
+        {
+            "name": "Nymphali",
+            "url": "localhost:4000/pokemon/48"
+        }
+    ],
+    "region": {
+        "name": "Kalos",
+        "url": "localhost:4000/region/6"
+    }
+}

@@ -5,28 +5,52 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Pokémon API - PKMNAPI</title>
+  <link rel="icon" href="favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-    html body {
-      font-family: Arial, Helvetica, sans-serif;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      max-width: 800px;
-      margin: auto;
-      padding: 30px;
-    }
-  </style>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 
 
-<body>
-  <h1>Pokémon API - PKMNAPI ! 📺</h1>
+<body onload="get()">
+  <h1>Pokémon API - PKMNAPI !</h1>
+  <img class="logo" src="./img/pokeball.svg" alt="pokeball">
   <h2>Try your request! </h2>
   <p>All the Pokémon data you've ever wanted: Trainer, Pokémon, Region</p>
+  <div class="get">
+    <span class="get-spa">https://pkmnapi.herokuapp.com/</span>
+    <input class="get-inp" id="url" placeholder="trainer/1/"></input>
+    <button class="get-btn" onclick="get()">GET</button>
+  </div>
+
+  <pre id="body">
+
+  </pre>
 
 </body>
+
+<script>
+
+  function get(url) {
+    url = 'https://pkmnapi.herokuapp.com/'
+    url += document.getElementById('url').value || 'trainer/1/';
+    httpGetAsync(url, (body) => {
+      let bodyJSON = JSON.parse(body);
+      document.getElementById('body').innerHTML = JSON.stringify(bodyJSON, null, 4);
+    })
+  }
+
+  function httpGetAsync(url, callback) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+      if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+        callback(xmlHttp.responseText);
+    }
+
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send(null);
+  }
+
+</script>
 
 </html>
