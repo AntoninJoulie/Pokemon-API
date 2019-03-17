@@ -2,7 +2,7 @@
 
 // Yargs -----------------------------------------------------------------------------------------------------------
 const yargs = require('yargs');
-const url = yargs.argv.url || 'http://localhost:4000/';
+const url = yargs.argv.url || process.env.PORT || 'http://localhost:4000/';
 const inputport = yargs.argv.port
 const port = (inputport && !isNaN(inputport) && (inputport > 0 && inputport %1 == 0)) ? inputport : 4000;
 
