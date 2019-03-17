@@ -49,6 +49,42 @@ Toutes les données Pokémon que vous avez toujours souhaitées :
     - PUT (`https://pkmnapi.herokuapp.com/region/1`)
     - DELETE (`https://pkmnapi.herokuapp.com/region/1`)
 
+
+## Les différentes méthodes
+
+***La méthode GET***
+
+----------
+
+La méthode GET est utilisée lorsque des informations sont transmises. La méthode get permet de placer des paramètres directement dans une url et de les récupérer. 
+GET est utilisé pour demander des données à une ressource spécifiée.
+
+***La méthode POST***
+
+----------
+
+Le POST est utilisé pour envoyer des données à un serveur afin de créer / mettre à jour une ressource.
+
+***La méthode PUT***
+
+----------
+
+PUT est utilisé pour envoyer des données à un serveur afin de créer / mettre à jour une ressource.
+La différence entre POST et PUT est que les demandes PUT sont idempotentes. C'est-à-dire qu'appeler plusieurs fois la même demande PUT produira toujours le même résultat. En revanche, l’appel répété d’une requête POST a pour effet secondaire de créer plusieurs fois la même ressource.
+
+***La méthode DELETE***
+
+----------
+
+
+La méthode DELETE supprime la ressource spécifiée.
+
+
+----------
+
+
+*Source `https://www.w3schools.com/tags/ref_httpmethods.asp`*
+
 ## Logiciel / Web Services Utiliser
 
 - Logiciel
