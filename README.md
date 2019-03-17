@@ -38,7 +38,7 @@ Toutes les données Pokémon que vous avez toujours souhaitées :
 
 
 
-## Comment crée ça propre API ? ( à développer )
+## Comment créer ça propre API ? ( à développer )
 
 
 Installation NPM ( Node Packet Manager )
@@ -60,3 +60,43 @@ Si le projet est déja crée comme le notre vous pouvez utiliser cette commande 
     $ npm install
 
 ## Heroku
+
+Utilisation de Heroku pour déployer l'API :
+
+L'installation :
+
+sur macOS :
+
+    $ brew tap heroku/brew && brew install heroku
+
+sur Windows :
+
+    $ npm install -g heroku
+
+sur Ubuntu 16+ :
+
+    $ sudo snap install --classic heroku
+
+Il est possible d'installer directeur l'installeur sur le lien suivant : [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+
+Une fois l'installation faites, nous pouvons passer au déploiement de l'application. Il faut donc créer une nouvelle application sur le site Heroku. De là, nous pouvons lier un dépot git afin de le déployer. Après avoir lié le git à Heroku, il faut se positionner dans le dépot à partir de l'invite de commande.
+
+    $ heroku create
+
+    $ git push heroku master
+
+A partir de maintenant, l'application est déployé. Vous pouvez ouvrir l'application à partir de l'URL généré ou bien en tapant :
+
+    $ heroku open
+
+## MongoDB
+
+Utilisation de MongoDB pour avoir une base de donnée :
+
+L'installation :
+
+Créer un Cluster qui va permettre de rentrer nos données et les réutiliser. Par la suite, créer des Users qui auront accès à la base de donnée. Enfin, Whitelister les IP qui peuvent accéder à l'utilisation de la base de donnée.
+
+Pour connecter notre nouvelle base de donnée à notre application il suffit de rajouter dans le code ceci :
+
+'mongodb+srv://<user>:<password>@cluster0-zd8v6.mongodb.net/test retryWrites=true'
