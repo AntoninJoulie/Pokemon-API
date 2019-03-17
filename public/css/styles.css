@@ -15,20 +15,35 @@ html body {
     padding: 30px;
   }
 
+  h1 {
+    margin: 0;
+  }
+
   h2 {
     margin: 0;
   }
 
-  .logo {
-    width: 100px;
-    margin: auto;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
-  .get {
+  .github {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo {
+    width: 100px;
+    margin: 10px auto;
+  }
+
+  .group-input {
     display: flex;
   }
 
-  .get-spa {
+  #url {
     flex-grow: 0;
     border: 2px solid linear-gradient(#484e55, #3a3f44 60%, #313539);
     background: linear-gradient(#484e55, #3a3f44 60%, #313539);
@@ -37,7 +52,7 @@ html body {
     border-radius: 6px 0 0 6px;
   }
 
-  .get-inp {
+  #input {
     flex-grow: 1;
     font-size: 16px;
     min-width: 50px;
@@ -48,7 +63,7 @@ html body {
     padding: 0 12px;
   }
 
-  .get-btn {
+  .btn {
     flex-grow: 0;
     border: 2px solid gray;
     border: none;

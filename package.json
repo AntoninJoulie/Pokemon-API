@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js url='https://pkmnapi.herokuapp.com/' port=4000"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   "homepage": "https://github.com/AntoninJoulie/NodeJs#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.19"
+    "mongoose": "^5.4.19",
+    "yargs": "^13.2.2"
   }
 }

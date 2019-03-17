@@ -49,30 +49,61 @@ Toutes les données Pokémon que vous avez toujours souhaitées :
     - PUT (`https://pkmnapi.herokuapp.com/region/1`)
     - DELETE (`https://pkmnapi.herokuapp.com/region/1`)
 
-## Appclication / Logiciel / Web Services Utiliser
+## Logiciel / Web Services Utiliser
 
+- Logiciel
+    - Visual Studio Code
+    - Node.js
+    - NPM, Node Packet Manager est le géstionnaire de packet de node. Il permet d'installer des modules.
+    - Un navigateur.
 
+- Web Service
+    - Github est un service de stockage dédier à la programtion et qui est baser sur git.
+    - Keroku est service de 
+    - Mongodb est une base de donnée baser sur le noSQL
+
+- Package NPM
+    - Mongoose permet de faire l'intercation simple entre Mongodb et Node.js.
+    - Express est un framwork, 
+    - Body Parser
+    - Yargs 
+    - EJS permet d'utiliser des templates.
 
 ## Comment créer ça propre API ? ( à développer )
 
 
-Installation NPM ( Node Packet Manager )
+Installation NPM 
 
 Instancier le projet NPM
 
     $ npm init
 
-
+Installation des packages
 
     $ npm i mongoose -s
     $ npm i express -s
     $ npm i body-parser -s
     $ npm i yargs -s
-
+    $ npm i ejs -s
 
 Si le projet est déja crée comme le notre vous pouvez utiliser cette commande pour récupérer les dépendances :
 
     $ npm install
+
+## Node.js
+
+Pour executer le programme vous pouvez utiliser la commande suivante : 
+
+    $ node app.js
+
+Il y a plusieur option disponible dont l'**url** et le **port**. Par default les valeurs sont 
+* URL: http://localhost:4000/
+* PORT: 4000
+
+Exemple de modification des options :
+    
+    $ node app.js --url="https://pkmnapi.herokuapp.com/" --port=4000
+
 
 ## Heroku
 
