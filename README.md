@@ -29,47 +29,47 @@ Vous pouvez allez voir notre API sur internet: [https://pkmnapi.herokuapp.com](h
 
 Toutes les données Pokémon que vous avez toujours souhaitées :
 - Dresseur
-    - GET (`https://pkmnapi.herokuapp.com/trainer`)
-    - GET ID (`https://pkmnapi.herokuapp.com/trainer/1`)
+    - GET ([https://pkmnapi.herokuapp.com/trainer](https://pkmnapi.herokuapp.com/trainer))
+    - GET ID ([https://pkmnapi.herokuapp.com/trainer/1](https://pkmnapi.herokuapp.com/trainer/1))
     - POST (`https://pkmnapi.herokuapp.com/trainer`)
     - PUT (`https://pkmnapi.herokuapp.com/trainer/1`)
     - DELETE (`https://pkmnapi.herokuapp.com/trainer/1`)
 
 - Pokémon
-    - GET (`https://pkmnapi.herokuapp.com/pokemon`)
-    - GET ID (`https://pkmnapi.herokuapp.com/pokemon/1`)
+    - GET ([https://pkmnapi.herokuapp.com/pokemon](https://pkmnapi.herokuapp.com/pokemon))
+    - GET ID ([https://pkmnapi.herokuapp.com/pokemon/1](https://pkmnapi.herokuapp.com/pokemon/1))
     - POST (`https://pkmnapi.herokuapp.com/pokemon`)
     - PUT (`https://pkmnapi.herokuapp.com/pokemon/1`)
     - DELETE (`https://pkmnapi.herokuapp.com/pokemon/1`)
 
 - Region
-    - GET (`https://pkmnapi.herokuapp.com/region`)
-    - GET ID (`https://pkmnapi.herokuapp.com/region/1`)
+    - GET ([https://pkmnapi.herokuapp.com/region](https://pkmnapi.herokuapp.com/region))
+    - GET ID ([https://pkmnapi.herokuapp.com/region/1](https://pkmnapi.herokuapp.com/region/1))
     - POST (`https://pkmnapi.herokuapp.com/region`)
     - PUT (`https://pkmnapi.herokuapp.com/region/1`)
     - DELETE (`https://pkmnapi.herokuapp.com/region/1`)
 
-## Logiciel / Web Services Utiliser
+## Logiciel / Web Services / Package Utiliser
 
 - Logiciel
-    - Visual Studio Code
-    - Node.js
-    - NPM, Node Packet Manager est le géstionnaire de packet de node. Il permet d'installer des modules.
+    - Visual Studio Code est un éditeur de code.
+    - Node.js est une plateforme de développement Javascript ( machine virtuelle V8 ).  
+    - NPM, Node Packet Manager est le gestionnaire de paquets officiel de Node.js.
     - Un navigateur.
 
 - Web Service
-    - Github est un service de stockage dédier à la programtion et qui est baser sur git.
-    - Keroku est service de 
-    - Mongodb est une base de donnée baser sur le noSQL
+    - Github est un service de stockage dédier à la programtion qui est baser sur git.
+    - Heroku permettent le déploiement d'applications web gratuitement.
+    - Mongodb est un système de gestion de base de données orientée documents et noSQL.
 
 - Package NPM
-    - Mongoose permet de faire l'intercation simple entre Mongodb et Node.js.
-    - Express est un framwork, 
+    - Mongoose permet de faire une intercation simple entre Mongodb et Node.js.
+    - Express est un framwork dédier a Node.js
     - Body Parser
     - Yargs 
     - EJS permet d'utiliser des templates.
 
-## Comment créer ça propre API ? ( à développer )
+## Comment créer ça propre API ?
 
 
 Installation NPM 
