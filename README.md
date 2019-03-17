@@ -1,5 +1,5 @@
 # API Pokémon - PKMNAPI 
-*Créee par : BIGEARD Robin - JOULIE Antonin - CAMBERT Killian*
+*Créée par : BIGEARD Robin - JOULIE Antonin - CAMBERT Killian*
 
 
 ![alt text](https://raw.githubusercontent.com/AntoninJoulie/Pokemon-API/master/public/favicon.png?token=Af8kQZaPOb871gwrZMLLOXPt_nDggVK3ks5clQdrwA%3D%3D "PKMNAPI")
