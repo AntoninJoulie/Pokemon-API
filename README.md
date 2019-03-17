@@ -8,6 +8,21 @@
 
 [Wikipédia](https://fr.wikipedia.org/wiki/Interface_de_programmation), API
 
+## Présentation du projet
+
+Notre projet consistait à créer une API avec un thème et des données de notre choix.
+Nous avons donc décider de créer un API concernant l'univers de Pokémon. Cette API est composée de trois modèles :
+
+ - le modèle Trainer (dresseur en français)
+ - le modèle Pokemon
+ - le modèle Region
+
+Dans le modèle Trainer on y retrouvera le nom, l'âge, le genre, la profession, les pokémons et la région du dresseur.
+
+Dans le modèle Pokemon on y retrouvera le nom, le(s) type(s), le dresseur et la région du pokémon.
+
+Dans le modèle Region on y retrouvera le nom, le(s) dresseur(s) natif(s) et le(s) pokémon(s) natif(s) de la région.
+
 ## Attrapez-les tous!
 
 Vous pouvez allez voir notre API sur internet: [https://pkmnapi.herokuapp.com](https://pkmnapi.herokuapp.com)
