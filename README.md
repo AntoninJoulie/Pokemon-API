@@ -70,9 +70,11 @@ sur macOS :
     $ brew tap heroku/brew && brew install heroku
 
 sur Windows :
+
     $ npm install -g heroku
 
 sur Ubuntu 16+ :
+
     $ sudo snap install --classic heroku
 
 Il est possible d'installer directeur l'installeur sur le lien suivant : [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
@@ -97,4 +99,4 @@ Créer un Cluster qui va permettre de rentrer nos données et les réutiliser. P
 
 Pour connecter notre nouvelle base de donnée à notre application il suffit de rajouter dans le code ceci :
 
-$ mongodb+srv://<user>:<password>@cluster0-zd8v6.mongodb.net/test retryWrites=true
+'mongodb+srv://<user>:<password>@cluster0-zd8v6.mongodb.net/test retryWrites=true'
