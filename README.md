@@ -96,13 +96,13 @@ La méthode DELETE supprime la ressource spécifiée.
     - Un navigateur.
 
 - Web Service
-    - Github est un service de stockage dédier à la programtion qui est baser sur git.
-    - Heroku permettent le déploiement d'applications web gratuitement.
-    - Mongodb est un système de gestion de base de données orientée documents et noSQL.
+    - Github est un service de stockage dédié à la programmation qui est basé sur git.
+    - Heroku permet le déploiement d'applications web gratuitement.
+    - Mongodb est un système de gestion de base de données orientée documents et NoSQL.
 
 - Package NPM
     - Mongoose permet de faire une intercation simple entre Mongodb et Node.js.
-    - Express est un framwork dédier a Node.js
+    - Express est un framework dédier a Node.js
     - Body Parser est un middleware.
     - Yargs simplifie les lignes de commande. 
     - EJS permet de générer des balisages HTML avec JavaScript.
@@ -129,11 +129,11 @@ Si le projet est déja crée comme le notre vous pouvez utiliser cette commande 
 
 ## Node.js
 
-Pour executer le programme vous pouvez utiliser la commande suivante : 
+Pour éxécuter le programme vous pouvez utiliser la commande suivante : 
 
     $ node app.js
 
-Il y a plusieur option disponible dont l'**url** et le **port**. Par default les valeurs sont 
+Il y a plusieurs options disponibles dont l'**url** et le **port**. Par défaut les valeurs sont 
 * URL: http://localhost:4000/
 * PORT: 4000
 
@@ -160,9 +160,9 @@ sur Ubuntu 16+ :
 
     $ sudo snap install --classic heroku
 
-Il est possible d'installer directeur l'installeur sur le lien suivant : [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+Il est possible d'installer directement l'installeur sur le lien suivant : [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
-Une fois l'installation faites, nous pouvons passer au déploiement de l'application. Il faut donc créer une nouvelle application sur le site Heroku. De là, nous pouvons lier un dépot git afin de le déployer. Après avoir lié le git à Heroku, il faut se positionner dans le dépot à partir de l'invite de commande.
+Une fois l'installation faite, nous pouvons passer au déploiement de l'application. Il faut donc créer une nouvelle application sur le site Heroku. De là, nous pouvons lier un dépot git afin de le déployer. Après avoir lié le git à Heroku, il faut se positionner dans le dépot à partir de l'invite de commande.
 
     $ heroku create
 
