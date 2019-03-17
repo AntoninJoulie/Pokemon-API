@@ -29,11 +29,6 @@ html body {
     flex-wrap: wrap;
   }
 
-  .github {
-    width: 40px;
-    height: 40px;
-  }
-
   .logo {
     width: 100px;
     margin: 10px auto;

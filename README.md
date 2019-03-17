@@ -65,12 +65,11 @@ Toutes les données Pokémon que vous avez toujours souhaitées :
 - Package NPM
     - Mongoose permet de faire une intercation simple entre Mongodb et Node.js.
     - Express est un framwork dédier a Node.js
-    - Body Parser
-    - Yargs 
-    - EJS permet d'utiliser des templates.
+    - Body Parser est un middleware.
+    - Yargs simplifie les lignes de commande. 
+    - EJS permet de générer des balisages HTML avec JavaScript.
 
-## Comment créer ça propre API ?
-
+## Comment utiliser NPM ?
 
 Installation NPM 
 
@@ -145,4 +144,4 @@ Créer un Cluster qui va permettre de rentrer nos données et les réutiliser. P
 
 Pour connecter notre nouvelle base de donnée à notre application il suffit de rajouter dans le code ceci :
 
-'mongodb+srv://<user>:<password>@cluster0-zd8v6.mongodb.net/test retryWrites=true'
+'mongodb+srv://[user]:[password]@cluster0-zd8v6.mongodb.net/test retryWrites=true'
